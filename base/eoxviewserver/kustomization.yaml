@@ -9,9 +9,10 @@ resources:
 
 helmCharts:
 - name: vs
-  repo: oci://registry-1.docker.io/sgilliestpzuk/
+  repo: https://charts-public.hub.eox.at/
   releaseName: eoxviewserver
   version: 4.3.0
+  valuesFile: values.yaml
 
 patches:
 - target:

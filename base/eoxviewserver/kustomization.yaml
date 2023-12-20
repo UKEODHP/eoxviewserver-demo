@@ -5,6 +5,7 @@ namespace: eoxviewserver
 
 resources:
 - namespace.yaml
+- redis-pvc.yaml
 
 helmCharts:
 - name: vs

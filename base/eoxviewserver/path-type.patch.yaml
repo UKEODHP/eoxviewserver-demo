@@ -1,0 +1,4 @@
+# fix "path /something/(.*) cannot be used with pathType Prefix" error
+- op: replace
+  path: /spec/rules/0/http/paths/0/pathType
+  value: ImplementationSpecific 

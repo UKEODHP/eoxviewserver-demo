@@ -1,7 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-namespace: eoxviewserver
+namespace: eox
 
 resources:
 - namespace.yaml
@@ -12,7 +12,7 @@ helmCharts:
   repo: https://charts-public.hub.eox.at/
   releaseName: eoxviewserver
   version: 4.3.0
-  valuesFile: values.yaml
+  valuesFile: values.eodhp.yaml
 
 patches:
 - target:

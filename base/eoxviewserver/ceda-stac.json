@@ -1,0 +1,108 @@
+{
+  "type": "Catalog",
+  "id": "stac-fastapi",
+  "title": "stac-fastapi",
+  "description": "stac-fastapi",
+  "stac_version": "1.0.0",
+  "conformsTo": [
+    "https://api.stacspec.org/v1.0.0/ogcapi-features",
+    "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/geojson",
+    "https://api.stacspec.org/v1.0.0/core",
+    "https://api.stacspec.org/v1.0.0/item-search#query",
+    "https://api.stacspec.org/v1.0.0/item-search#fields",
+    "http://www.opengis.net/spec/cql2/1.0/conf/basic-cql2",
+    "http://www.opengis.net/spec/cql2/1.0/conf/cql2-json",
+    "https://api.stacspec.org/v1.0.0-rc.2/item-search#filter",
+    "http://www.opengis.net/spec/ogcapi-features-3/1.0/conf/features-filter",
+    "https://api.stacspec.org/v1.0.0-rc.2/item-search#context",
+    "http://www.opengis.net/spec/ogcapi-features-3/1.0/conf/filter",
+    "http://www.opengis.net/spec/cql2/1.0/conf/cql2-text",
+    "https://api.stacspec.org/v1.0.0/collections",
+    "https://api.stacspec.org/v1.0.0/item-search#sort",
+    "https://api.stacspec.org/v1.0.0/item-search",
+    "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/oas30",
+    "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/core"
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "https://api.stac.ceda.ac.uk/"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://api.stac.ceda.ac.uk/"
+    },
+    {
+      "rel": "data",
+      "type": "application/json",
+      "href": "https://api.stac.ceda.ac.uk/collections"
+    },
+    {
+      "rel": "conformance",
+      "type": "application/json",
+      "title": "STAC/WFS3 conformance classes implemented by this server",
+      "href": "https://api.stac.ceda.ac.uk/conformance"
+    },
+    {
+      "rel": "search",
+      "type": "application/geo+json",
+      "title": "STAC search",
+      "href": "https://api.stac.ceda.ac.uk/search",
+      "method": "GET"
+    },
+    {
+      "rel": "search",
+      "type": "application/geo+json",
+      "title": "STAC search",
+      "href": "https://api.stac.ceda.ac.uk/search",
+      "method": "POST"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "cmip6",
+      "href": "https://api.stac.ceda.ac.uk/collections/cmip6"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "cordex",
+      "href": "https://api.stac.ceda.ac.uk/collections/cordex"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "sentinel1",
+      "href": "https://api.stac.ceda.ac.uk/collections/sentinel1"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "sentinel2_ard",
+      "href": "https://api.stac.ceda.ac.uk/collections/sentinel2_ard"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "ukcp",
+      "href": "https://api.stac.ceda.ac.uk/collections/ukcp"
+    },
+    {
+      "rel": "service-desc",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "OpenAPI service description",
+      "href": "https://api.stac.ceda.ac.uk/api"
+    },
+    {
+      "rel": "service-doc",
+      "type": "text/html",
+      "title": "OpenAPI service documentation",
+      "href": "https://api.stac.ceda.ac.uk/api.html"
+    }
+  ],
+  "stac_extensions": []
+}
+
+{"type": "Catalog", "id": "stac-fastapi", "title": "stac-fastapi", "description": "stac-fastapi", "stac_version": "1.0.0", "conformsTo": ["https://api.stacspec.org/v1.0.0/ogcapi-features", "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/geojson", "https://api.stacspec.org/v1.0.0/core", "https://api.stacspec.org/v1.0.0/item-search#query", "https://api.stacspec.org/v1.0.0/item-search#fields", "http://www.opengis.net/spec/cql2/1.0/conf/basic-cql2", "http://www.opengis.net/spec/cql2/1.0/conf/cql2-json", "https://api.stacspec.org/v1.0.0-rc.2/item-search#filter", "http://www.opengis.net/spec/ogcapi-features-3/1.0/conf/features-filter", "https://api.stacspec.org/v1.0.0-rc.2/item-search#context", "http://www.opengis.net/spec/ogcapi-features-3/1.0/conf/filter", "http://www.opengis.net/spec/cql2/1.0/conf/cql2-text", "https://api.stacspec.org/v1.0.0/collections", "https://api.stacspec.org/v1.0.0/item-search#sort", "https://api.stacspec.org/v1.0.0/item-search", "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/oas30", "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/core"], "links": [{"rel": "self", "type": "application/json", "href": "https://api.stac.ceda.ac.uk/"}, {"rel": "root", "type": "application/json", "href": "https://api.stac.ceda.ac.uk/"}, {"rel": "data", "type": "application/json", "href": "https://api.stac.ceda.ac.uk/collections"}, {"rel": "conformance", "type": "application/json", "title": "STAC/WFS3 conformance classes implemented by this server", "href": "https://api.stac.ceda.ac.uk/conformance"}, {"rel": "search", "type": "application/geo+json", "title": "STAC search", "href": "https://api.stac.ceda.ac.uk/search", "method": "GET"}, {"rel": "search", "type": "application/geo+json", "title": "STAC search", "href": "https://api.stac.ceda.ac.uk/search", "method": "POST"}, {"rel": "child", "type": "application/json", "title": "cmip6", "href": "https://api.stac.ceda.ac.uk/collections/cmip6"}, {"rel": "child", "type": "application/json", "title": "cordex", "href": "https://api.stac.ceda.ac.uk/collections/cordex"}, {"rel": "child", "type": "application/json", "title": "sentinel1", "href": "https://api.stac.ceda.ac.uk/collections/sentinel1"}, {"rel": "child", "type": "application/json", "title": "sentinel2_ard", "href": "https://api.stac.ceda.ac.uk/collections/sentinel2_ard"}, {"rel": "child", "type": "application/json", "title": "ukcp", "href": "https://api.stac.ceda.ac.uk/collections/ukcp"}, {"rel": "service-desc", "type": "application/vnd.oai.openapi+json;version=3.0", "title": "OpenAPI service description", "href": "https://api.stac.ceda.ac.uk/api"}, {"rel": "service-doc", "type": "text/html", "title": "OpenAPI service documentation", "href": "https://api.stac.ceda.ac.uk/api.html"}], "stac_extensions": []}

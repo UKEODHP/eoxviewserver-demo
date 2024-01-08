@@ -122,7 +122,7 @@
   ],
   "assets": {
     "S2B_20231101_latn608lonw0002_T30VXN_ORB123_20231101123121_utm30n_osgb_toposhad.tif": {
-      "role": [
+      "roles": [
         "data"
       ],
       "size": 297729,
@@ -130,7 +130,7 @@
       "href": "https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/01/S2B_20231101_latn608lonw0002_T30VXN_ORB123_20231101123121_utm30n_osgb_toposhad.tif"
     },
     "S2B_20231101_latn608lonw0002_T30VXN_ORB123_20231101123121_utm30n_osgb_vmsk_sharp_rad_srefdem_stdsref_thumbnail.jpg": {
-      "role": [
+      "roles": [
         "data"
       ],
       "size": 55019,
@@ -138,7 +138,7 @@
       "href": "https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/01/S2B_20231101_latn608lonw0002_T30VXN_ORB123_20231101123121_utm30n_osgb_vmsk_sharp_rad_srefdem_stdsref_thumbnail.jpg"
     },
     "S2B_20231101_latn608lonw0002_T30VXN_ORB123_20231101123121_utm30n_osgb_clouds.tif": {
-      "role": [
+      "roles": [
         "data"
       ],
       "size": 1743878,
@@ -146,7 +146,7 @@
       "href": "https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/01/S2B_20231101_latn608lonw0002_T30VXN_ORB123_20231101123121_utm30n_osgb_clouds.tif"
     },
     "S2B_20231101_latn608lonw0002_T30VXN_ORB123_20231101123121_utm30n_osgb_vmsk_sharp_rad_srefdem_stdsref_meta.xml": {
-      "role": [
+      "roles": [
         "data"
       ],
       "size": 18456,
@@ -154,7 +154,7 @@
       "href": "https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/01/S2B_20231101_latn608lonw0002_T30VXN_ORB123_20231101123121_utm30n_osgb_vmsk_sharp_rad_srefdem_stdsref_meta.xml"
     },
     "S2B_20231101_latn608lonw0002_T30VXN_ORB123_20231101123121_utm30n_osgb_clouds_prob.tif": {
-      "role": [
+      "roles": [
         "data"
       ],
       "size": 32826509,
@@ -162,7 +162,7 @@
       "href": "https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/01/S2B_20231101_latn608lonw0002_T30VXN_ORB123_20231101123121_utm30n_osgb_clouds_prob.tif"
     },
     "S2B_20231101_latn608lonw0002_T30VXN_ORB123_20231101123121_utm30n_osgb_vmsk_sharp_rad_srefdem_stdsref.tif": {
-      "role": [
+      "roles": [
         "data"
       ],
       "size": 808240318,
@@ -170,7 +170,7 @@
       "href": "https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/01/S2B_20231101_latn608lonw0002_T30VXN_ORB123_20231101123121_utm30n_osgb_vmsk_sharp_rad_srefdem_stdsref.tif"
     },
     "S2B_20231101_latn608lonw0002_T30VXN_ORB123_20231101123121_utm30n_osgb_sat.tif": {
-      "role": [
+      "roles": [
         "data"
       ],
       "size": 1774631,
@@ -178,7 +178,7 @@
       "href": "https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/01/S2B_20231101_latn608lonw0002_T30VXN_ORB123_20231101123121_utm30n_osgb_sat.tif"
     },
     "S2B_20231101_latn608lonw0002_T30VXN_ORB123_20231101123121_utm30n_osgb_valid.tif": {
-      "role": [
+      "roles": [
         "data"
       ],
       "size": 311087,

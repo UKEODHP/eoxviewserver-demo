@@ -86,7 +86,17 @@
     "Start Relative Orbit Number": "123",
     "updated": "2023-11-27T09:27:34.185603Z",
     "Instrument Mode": null,
-    "EPSG": "27700"
+    "EPSG": "27700",
+    "s2:product_type": "S2MSI1C",
+    "eo:bands": [
+      {
+        "name": "band1",
+        "common_name": "blue",
+        "center_wavelength": 0.47,
+        "full_width_half_max": 0.07,
+        "solar_illumination": 1959.66
+      }
+    ]
   },
   "links": [
     {

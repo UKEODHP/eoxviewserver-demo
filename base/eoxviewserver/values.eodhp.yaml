@@ -89,6 +89,46 @@ global:
           grey:
             expression: (B08-B04)/(B08+B04)
             range: [-1, 1]
+      coverages:
+        S2L1C_B01:
+          assets:
+            - B01
+        S2L1C_B02:
+          assets:
+            - B02
+        S2L1C_B03:
+          assets:
+            - B03
+        S2L1C_B04:
+          assets:
+            - B04
+        S2L1C_B05:
+          assets:
+            - B05
+        S2L1C_B06:
+          assets:
+            - B06
+        S2L1C_B07:
+          assets:
+            - B07
+        S2L1C_B08:
+          assets:
+            - B08
+        S2L1C_B8A:
+          assets:
+            - B8A
+        S2L1C_B09:
+          assets:
+            - B09
+        S2L1C_B10:
+          assets:
+            - B10
+        S2L1C_B11:
+          assets:
+            - B11
+        S2L1C_B12:
+          assets:
+            - B12
       masks:
         - name: clouds
           validity: false
@@ -226,12 +266,12 @@ client:
       - "2019-01-01T00:00:00Z"
       - "today"
     displayTimeDomain:
-      - "2019-01-01T00:00:00Z"
-      - "2020-12-31T23:59:59Z"
+      - "2023-01-01T00:00:00Z"
+      - "2023-12-31T23:59:59Z"
     displayInterval: P1096D
     selectedTimeDomain:
-      - "2020-08-01T00:00:00Z"
-      - "2020-08-31T23:59:59Z"
+      - "2023-01-01T00:00:00Z"
+      - "2023-12-31T23:59:59Z"
     selectableInterval: P1096D
     center:
       - 12
@@ -641,14 +681,6 @@ registrar:
     defaultSuccessQueue:
     defaultErrorQueue:
     defaultReplace: true
-    defaultBackends:
-      - path: "registrar.backend.eoxserver.ItemBackend"
-        kwargs:
-          instance_base_path: "/var/www/pvs/dev"
-          instance_name: "pvs_instance"
-          product_types: []
-          auto_create_product_types: True
-          automatic_visibilities: ["wms", "wcs"]
     defaultHandlers:
     routes: {}
 

@@ -57,50 +57,9 @@ global:
       collections:
         - S2L1C
       metadata_assets: []
-      coverages:
-        S2L1C_B01:
-          assets:
-            - B01
-        S2L1C_B02:
-          assets:
-            - B02
-        S2L1C_B03:
-          assets:
-            - B03
-        S2L1C_B04:
-          assets:
-            - B04
-        S2L1C_B05:
-          assets:
-            - B05
-        S2L1C_B06:
-          assets:
-            - B06
-        S2L1C_B07:
-          assets:
-            - B07
-        S2L1C_B08:
-          assets:
-            - B08
-        S2L1C_B8A:
-          assets:
-            - B8A
-        S2L1C_B09:
-          assets:
-            - B09
-        S2L1C_B10:
-          assets:
-            - B10
-        S2L1C_B11:
-          assets:
-            - B11
-        S2L1C_B12:
-          assets:
-            - B12
       defaultBrowse: TRUE_COLOR
       browses:
         TRUE_COLOR:
-          asset: visual
           red:
             expression: B04
             range: [0, 4000]
